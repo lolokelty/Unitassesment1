@@ -122,8 +122,11 @@ console.log(averageDailyAcres)
 let acresLeft = 174 
 let days = 0
 
-
-
+while(acresLeft > 0){
+    days++
+    acresLeft -= averageDailyAcres
+}
+console.log(days)
 
 
 // PROBLEM 4
@@ -152,11 +155,13 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = []
+let galaTons = []
+let pinkTons = []
 
-
+for (let i = 0; i < fujiAcres.length; i++){
+    fujiTons.push(fujiAcres[i] )
+}
 
 
 
@@ -178,11 +183,6 @@ let days = 0
 */
 
 // CODE HERE 
-
-// let fujiPounds =
-// let galaPounds =
-// let pinkPounds =
-
 
 
 
